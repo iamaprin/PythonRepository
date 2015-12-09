@@ -1,5 +1,5 @@
 ### lists - mutable sequence
-`len`: length
+`len()`: length
 ```python
 >>> len([1, 2, 3])
 3
@@ -10,4 +10,11 @@
 >>> l[1:2] = [4, 5]
 >>> l
 [1, 4, 5, 3]
+```
+`list.sort() & sorted(list)`：排序
+```python
+>>> l = ['abc', 'ABD', 'aBe']
+>>> l.sort()
+>>> l
+['ABD', 'aBe', 'abc']
 ```
